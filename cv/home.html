@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>homepage</title>
+
+        <style>
+
+            body{
+                background-color: rgb(238, 199, 127);
+            }
+            
+            h1 {color:black;}
+            
+            ul {color: white}
+
+            .h1{
+                width: 100%;
+                height: 100px;
+                background-color: blue;
+                border: solid 3px black;
+                padding: 10px;
+                
+                
+            }
+
+            .sum {
+                width: 100%;
+                height: 200px;
+                background-color: rgb(139, 130, 130);
+                border-radius: 10px;
+                margin-left: -6px;
+            }
+
+            .sum p{
+                margin-left: 5px;
+            }
+
+            .sum h3{
+                margin-left: 5px;
+            }
+
+            .container {
+                display: flex;
+                        
+                height: 100vh;
+                float: left;
+            }
+
+            .sidebar {
+                width: 200px;
+                height: 100%;
+                background-color: rgb(31, 30, 30);
+                padding: 20px;
+                        
+                height: 100%;
+                overflow-y: auto;
+                position: fixed;
+                top: 0;
+                left: 0;
+                transition: width 0.5s ease;
+            }
+
+            .sidebar h4 {
+                color: #bebcbc;
+            }
+
+            .sidebar h2 {
+                color: aquamarine;
+            }
+
+            .sidebar p{
+                color: rgb(178, 243, 221);
+            }
+
+            .main {
+                flex-grow: 1;
+                padding: 20px;
+                margin-left: 220px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+
+
+        <b><div class="h1"><marquee><h1>WELCOME TO MY C.V!</h1></marquee></div></b>
+            <br>
+        <div class="container">
+            
+            <div class="sidebar">
+                <img src="logo.jpg" width="190px" height="190px">
+                <h2>SSEMUYOBE CHARLES DISAN</h2>
+                <p>> software Developer</p>
+
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+                <h4>CONTACTS:</h4>
+            
+                <ul>
+                    <li> EMAIL - c47044552@gmail.com</li>
+                    <li>Instagram - Jex167sick</li>
+                    <li>X - DisOne67</li>
+                    <li>TEL- +256 785 009 078</li>
+                </ul>
+
+            </div>
+
+            <div class="main">
+
+                <form action="">
+                    <input type="text" name="username" placeholder="username">
+                    <br><br>
+                    <input type="password" name="password" placeholder="password">
+                    <br><br>
+                    <button><a href="profile.html">Login</a></button>
+                </form>
+
+                    <p>My name is <b>SSEMUYOBE CHARLES DISAN</b>
+                        <br>
+                        Iam currently a student at <b>UGANDA CHRISTIAN UNIVERSITY</b>
+                        <br>
+                        I am a twenty one year old male resident of Mukono District in Uganda.
+                    </p>
+                    <div class="sum">
+                        <br>
+                        <h3>PROFESSIONAL SUMMARY</h3>
+                        <p>Highly motivated and detail-oriented software developer with two years of experience in developing scalable and efficient software solutions. Proficient in Python, HTML, C and CSS, with a strong passion for innovative problem-solving.</p>
+                    </div>   
+
+
+            </div>
+        </div>
+    </body>
+
+</html>

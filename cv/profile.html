@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>myprofile</title>
+
+        <style>
+            .h1{
+            width: 100%;
+            height: 100px;
+            background-color: blue;
+            border: solid 3px black;
+            padding: 10px;
+            }
+            
+            body{
+                background-color: rgb(238, 199, 127);
+            }
+
+            table{
+                background-color: rgb(184, 121, 121);
+                align: center;
+
+            }
+
+            ul {
+                color: white;
+            }
+
+            
+            .container {
+                display: flex;
+                        
+                height: 100vh;
+                float: left;
+            }
+
+            .sidebar {
+                width: 200px;
+                height: 100%;
+                background-color: rgb(31, 30, 30);
+                padding: 20px;
+                        
+                height: 100%;
+                overflow-y: auto;
+                position: fixed;
+                top: 0;
+                left: 0;
+                transition: width 0.5s ease;
+            }
+
+            .sidebar h4 {
+                color: #bebcbc;
+            }
+
+            .sidebar h2 {
+                color: aquamarine;
+            }
+
+            .sidebar p{
+                color: rgb(178, 243, 221);
+            }
+
+            .main {
+                flex-grow: 1;
+                padding: 20px;
+                margin-left: 220px;
+            }
+
+            .links {
+                background-color: black;
+                width: 100%;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                flex-basis: 1;
+                position: fixed;
+            }
+
+            .links a {
+                padding: 1vh 2vw;
+                color: orange;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <nav class="links">
+            <a href="educationbkgrd.html">MY EDUCATION BACKGROUND</a>
+            <a href="workexp.html">MY WORK EXPERIENCE</a>
+            <a href="gallery.html">IMAGE GALLERY</a>
+        </nav>
+        
+        <b><div class="h1"><marquee><h1>WELCOME TO THE PROFILE PAGE OF THIS CURRICULLUM VITAE</h1></marquee></div></b>
+        
+        <div class="container">
+            
+            <div class="sidebar">
+                <img src="logo.jpg" width="190px" height="190px">
+                <h2>SSEMUYOBE CHARLES DISAN</h2>
+                <p>> software Developer</p>
+
+                <br>
+
+                <a href="home.html">back to HOME</a>
+
+                <br><br><br><br><br><br><br><br><br><br><br>
+
+                <h4>CONTACTS:</h4>
+            
+                <ul>
+                    <li> EMAIL - c47044552@gmail.com</li>
+                    <li>Instagram - Jex167sick</li>
+                    <li>X - DisOne67</li>
+                    <li>TEL- +256 785 009 078</li>
+                </ul>
+
+            </div>
+
+            <div class="main">
+
+                <p>The information about my profile and everything about me is briefly summarized in the table below;</p>
+                      
+                <table border="3px">
+                    <tr>
+                        <th>NAME</th>
+                        <td>SSEMUYOBE CHARLES DISAN</td>
+                    </tr>
+                    <tr>
+                        <th>AGE</th>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <th>GENDER</th>
+                        <td style="color: green">M</td>
+                    </tr>
+                    <tr>
+                        <th>PLACE OF BIRTH</th>
+                        <td>MUKONO</td>
+                    </tr>
+                    <tr>
+                        <th>DATE OF BIRTH</th>
+                        <td>1st December, 2002</td>
+                    </tr>
+                    <tr>
+                        <th>HOBBIES</th>
+                        <td>Coding<br>Singing<br>Listening to music<br>Reading</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </body>
+
+</html>
